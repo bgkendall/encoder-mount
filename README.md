@@ -1,7 +1,8 @@
 # Encoder Mount PCB
 
 This is a simple PCB for mounting [EC11]-type rotary encoders. It is intended for use in keyboard
-projects.
+projects. Included are the [KiCad] PCB design files and, soon (!!) [Gerber format] files for PCB
+production.
 
 ## Sizes
 
@@ -56,6 +57,8 @@ case, the switch is wired as follows:
 
 
 [EC11]: https://tech.alpsalpine.com/e/products/detail/EC11E15204A3/
+[KiCad]: https://www.kicad.org
+[Gerber format]: https://en.wikipedia.org/wiki/Gerber_format
 [keyboard matrix]: https://www.pcbheaven.com/wikipages/How_Key_Matrices_Works/
 [SOD-123]: https://en.wikipedia.org/wiki/Small_Outline_Diode
 [direct pin matrix]: https://docs.qmk.fm/#/porting_your_keyboard_to_qmk?id=direct-pin-matrix
