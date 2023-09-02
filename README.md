@@ -14,6 +14,9 @@ The PCB comes in two sizes:
 
 Both sizes have the same functionality.
 
+<img src="Images/encoder-mount-0-1-top.png" width="400" title="0.1″ spaced board, top">&nbsp;
+<img src="Images/encoder-mount-tight-top.png" width="400" title="Tightly spaced board, top">
+
 ## Wiring
 
 ### Encoder
@@ -21,8 +24,8 @@ Both sizes have the same functionality.
 The PCB breaks out the following pins as labelled on the PCB:
 
  * `A` — encoder A pin
- * `B` — encoder B pin
  * `G` — the common or ground pin
+ * `B` — encoder B pin
 
 ### Switch
 
@@ -40,6 +43,9 @@ If used in a standard [keyboard matrix], a 1N4841 [SOD-123] SMD diode can be sol
 `D1`, with the direction depending on whether the matrix is Column-to-Row or Row-to-Column. The
 labels `C2R|` and `|R2C` indicate the correct orientation for each of these matrix directions.
 
+<img src="Images/encoder-mount-0-1-bottom.png" width="400"
+     title="0.1″ spaced board, bottom, with diode location D1 highlighted">
+
 If D1 is populated, then the switch is connected as follows:
 
  * `R` — the switch’s row
@@ -48,8 +54,12 @@ If D1 is populated, then the switch is connected as follows:
 #### Direct Pin Matrix
 
 If a [direct pin matrix] is used, where each switches is wired between ground and a separate I/O
-pin, then the connection to ground can optionally be made by soldering across jumper `JP1`. In this
-case, the switch is wired as follows:
+pin, then the connection to ground can optionally be made by soldering across jumper `JP1`.
+
+<img src="Images/encoder-mount-tight-bottom.png" width="400"
+     title="Tightly spaced board, bottom, with jumper location JP1 highlighted">
+
+In this case, the switch is wired as follows:
 
  * `C/1` — to the switch’s I/O pin
  * `G/2` — can be left unconnected, wired to another switch, or can be connected to ground *instead
