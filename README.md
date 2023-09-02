@@ -17,6 +17,14 @@ Both sizes have the same functionality.
 <img src="Images/encoder-mount-0-1-top.png" width="400" title="0.1″ spaced board, top">&nbsp;
 <img src="Images/encoder-mount-tight-top.png" width="400" title="Tightly spaced board, top">
 
+## Mounting
+
+When using an encoder that has a base with a central pillar and four legs on the corners (as shown
+below), the outer legs can be clipped and/or sanded. The boards provide space for the pillar, and
+this allows for a more compact installation.
+
+<img src="Images/rotary-encoder-with-legs.jpg" width="250" title="Rotary encoder with “legs”">
+
 ## Wiring
 
 ### Encoder
