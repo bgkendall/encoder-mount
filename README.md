@@ -4,6 +4,7 @@ This is a simple PCB for mounting [EC11]-type rotary encoders. It is intended fo
 projects. Included are the [KiCad] PCB design files and, soon (!!) [Gerber format] files for PCB
 production.
 
+
 ## Sizes
 
 The PCB comes in two sizes:
@@ -14,8 +15,8 @@ The PCB comes in two sizes:
 
 Both sizes have the same functionality.
 
-<img src="Images/encoder-mount-0-1-top.png" width="400" title="0.1″ spaced board, top">&nbsp;
-<img src="Images/encoder-mount-tight-top.png" width="400" title="Tightly spaced board, top">
+![Encoder Mount PCB, both sizes from top](Images/encoder-mount-both-sizes-top.png)
+
 
 ## Mounting
 
@@ -28,6 +29,7 @@ allows for a more compact installation.
 Genuine ALPS EC11 encoders have even squatter bases, but, in addition to typically being more
 expensive, do not appear to be available with threaded collars. This may mean they are impractical
 in some situations, although the M2 mounting holes on these PCBs may reopen some possibilities.
+
 
 ## Wiring
 
@@ -76,6 +78,7 @@ In this case, the switch is wired as follows:
  * `C/1` — to the switch’s I/O pin
  * `G/2` — can be left unconnected, wired to another switch, or can be connected to ground *instead
    of* `G`
+
 
 
 [EC11]: https://tech.alpsalpine.com/e/products/detail/EC11E15204A3/
