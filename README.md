@@ -1,8 +1,9 @@
 # Encoder Mount PCB
 
 This is a simple PCB for mounting [EC11]-type rotary encoders. It is intended for use in keyboard
-projects. Included are the [KiCad] PCB design files and, soon (!!) [Gerber format] files for PCB
-production.
+projects and provides an alternative mounting option for securing an encoder as well as easier
+wiring into a keyboard matrix. Included are the [KiCad] PCB design files and, soon (!!) [Gerber
+format] files for PCB production.
 
 
 ## Sizes
@@ -19,6 +20,10 @@ Both sizes have the same functionality.
 
 
 ## Mounting
+
+The PCB provides four M2 mounting holes to provide a sturdy base for the encoder when it is bolted
+to the keyboard’s plate or base. The PCB can also be used with Kevin Eckert’s [EC11 to MX
+Switchplate Adapter][ec112mx].
 
 When using an encoder that has a base with a central pillar and four legs on the corners (as shown
 below), the outer legs can be clipped and/or sanded. Both boards provide space for the pillar, which
@@ -84,6 +89,7 @@ In this case, the switch is wired as follows:
 [EC11]: https://tech.alpsalpine.com/e/products/detail/EC11E15204A3/
 [KiCad]: https://www.kicad.org
 [Gerber format]: https://en.wikipedia.org/wiki/Gerber_format
+[ec112mx]: https://www.thingiverse.com/thing:3770166
 [keyboard matrix]: https://www.pcbheaven.com/wikipages/How_Key_Matrices_Works/
 [SOD-123]: https://en.wikipedia.org/wiki/Small_Outline_Diode
 [direct pin matrix]: https://docs.qmk.fm/#/porting_your_keyboard_to_qmk?id=direct-pin-matrix
