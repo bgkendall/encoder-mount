@@ -24,9 +24,10 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
+# Exported BOM and Gerber files
 *.xml
 *.csv
+*Gerbers.zip
 
 # Nova (https://nova.app) project files
 .nova
