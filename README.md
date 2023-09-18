@@ -2,8 +2,8 @@
 
 This is a simple PCB for mounting [EC11]-type rotary encoders. It is intended for use in keyboard
 projects and provides an alternative mounting option for securing an encoder as well as easier
-wiring into a keyboard matrix. Included are the [KiCad] PCB design files and [Gerber format] files
-for PCB production.
+wiring into a keyboard matrix. This repository contains the [KiCad] PCB design files and [Gerber
+format] files for PCB production. Zipped Gerber packages are included in the release assets.
 
 
 ## Sizes
