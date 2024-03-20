@@ -72,7 +72,7 @@ If D1 is populated, then the switch is connected as follows:
 
 #### Direct Pin Matrix
 
-If a [direct pin matrix] is used, where each switches is wired between ground and a separate I/O
+If a [direct pin matrix] is used, where each switch is wired between ground and a separate I/O
 pin, then the connection to ground can optionally be made by soldering across jumper `JP1`.
 
 <img src="Images/encoder-mount-tight-bottom.png" width="400"
